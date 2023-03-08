@@ -1,0 +1,30 @@
+name: plain-nuget-server
+on: [push, workflow_dispatch]
+permissions:
+  contents: write
+jobs:
+  plain-nuget-server:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Download gen.php
+        run: curl https://raw.githubusercontent.com/calamity-inc/plain-nuget-server/senpai/gen.php > gen.php
+
+      - name: Build
+        run: php gen.php choco.calamity.gg
+
+      - name: Add .nojekyll
+        run: touch www/.nojekyll
+
+      - name: Install rsync
+        run: |
+          sudo apt-get update && sudo apt-get install -y rsync
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+
+        with:
+          branch: gh-pages
+          folder: www
