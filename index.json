@@ -1,0 +1,21 @@
+{
+    "version": "3.0.0",
+    "resources": [
+        {
+            "@id": "https://choco.calamity.gg/PackageBaseAddress/",
+            "@type": "PackageBaseAddress/3.0.0"
+        },
+        {
+            "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/",
+            "@type": "RegistrationsBaseUrl"
+        },
+        {
+            "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/",
+            "@type": "RegistrationsBaseUrl/3.0.0-beta"
+        },
+        {
+            "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/",
+            "@type": "RegistrationsBaseUrl/3.0.0-rc"
+        }
+    ]
+}

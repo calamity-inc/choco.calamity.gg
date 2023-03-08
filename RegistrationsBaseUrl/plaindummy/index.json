@@ -1,0 +1,31 @@
+{
+    "count": 1,
+    "items": [
+        {
+            "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/plaindummy/index.json",
+            "count": 2,
+            "items": [
+                {
+                    "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/plaindummy/1.0.0.json",
+                    "catalogEntry": {
+                        "@id": "https://choco.calamity.gg/catalog/plaindummy.1.0.0.json",
+                        "id": "plaindummy",
+                        "version": "1.0.0"
+                    },
+                    "packageContent": "https://choco.calamity.gg/PackageBaseAddress/plaindummy/1.0.0/plaindummy.1.0.0.nupkg"
+                },
+                {
+                    "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/plaindummy/1.0.1.json",
+                    "catalogEntry": {
+                        "@id": "https://choco.calamity.gg/catalog/plaindummy.1.0.1.json",
+                        "id": "plaindummy",
+                        "version": "1.0.1"
+                    },
+                    "packageContent": "https://choco.calamity.gg/PackageBaseAddress/plaindummy/1.0.1/plaindummy.1.0.1.nupkg"
+                }
+            ],
+            "lower": "1.0.0",
+            "upper": "1.0.1"
+        }
+    ]
+}
