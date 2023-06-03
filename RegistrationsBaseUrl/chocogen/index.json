@@ -3,7 +3,7 @@
     "items": [
         {
             "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/chocogen/index.json",
-            "count": 1,
+            "count": 2,
             "items": [
                 {
                     "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/chocogen/0.1.0.json",
@@ -13,10 +13,19 @@
                         "version": "0.1.0"
                     },
                     "packageContent": "https://choco.calamity.gg/PackageBaseAddress/chocogen/0.1.0/chocogen.0.1.0.nupkg"
+                },
+                {
+                    "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/chocogen/0.1.1.json",
+                    "catalogEntry": {
+                        "@id": "https://choco.calamity.gg/catalog/chocogen.0.1.1.json",
+                        "id": "chocogen",
+                        "version": "0.1.1"
+                    },
+                    "packageContent": "https://choco.calamity.gg/PackageBaseAddress/chocogen/0.1.1/chocogen.0.1.1.nupkg"
                 }
             ],
             "lower": "0.1.0",
-            "upper": "0.1.0"
+            "upper": "0.1.1"
         }
     ]
 }
