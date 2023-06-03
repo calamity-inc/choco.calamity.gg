@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "items": [
+        {
+            "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/pluto/index.json",
+            "count": 1,
+            "items": [
+                {
+                    "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/pluto/0.6.3.json",
+                    "catalogEntry": {
+                        "@id": "https://choco.calamity.gg/catalog/pluto.0.6.3.json",
+                        "id": "pluto",
+                        "version": "0.6.3"
+                    },
+                    "packageContent": "https://choco.calamity.gg/PackageBaseAddress/pluto/0.6.3/pluto.0.6.3.nupkg"
+                }
+            ],
+            "lower": "0.6.3",
+            "upper": "0.6.3"
+        }
+    ]
+}
