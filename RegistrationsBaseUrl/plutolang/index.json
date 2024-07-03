@@ -3,7 +3,7 @@
     "items": [
         {
             "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/plutolang/index.json",
-            "count": 13,
+            "count": 14,
             "items": [
                 {
                     "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/plutolang/0.6.3.json",
@@ -121,10 +121,19 @@
                         "version": "0.9.3"
                     },
                     "packageContent": "https://choco.calamity.gg/PackageBaseAddress/plutolang/0.9.3/plutolang.0.9.3.nupkg"
+                },
+                {
+                    "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/plutolang/0.9.4.json",
+                    "catalogEntry": {
+                        "@id": "https://choco.calamity.gg/catalog/plutolang.0.9.4.json",
+                        "id": "plutolang",
+                        "version": "0.9.4"
+                    },
+                    "packageContent": "https://choco.calamity.gg/PackageBaseAddress/plutolang/0.9.4/plutolang.0.9.4.nupkg"
                 }
             ],
             "lower": "0.6.3",
-            "upper": "0.9.3"
+            "upper": "0.9.4"
         }
     ]
 }
