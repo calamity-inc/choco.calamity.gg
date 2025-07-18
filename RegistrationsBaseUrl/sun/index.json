@@ -3,7 +3,7 @@
     "items": [
         {
             "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/sun/index.json",
-            "count": 1,
+            "count": 2,
             "items": [
                 {
                     "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/sun/0.3.0.json",
@@ -13,10 +13,19 @@
                         "version": "0.3.0"
                     },
                     "packageContent": "https://choco.calamity.gg/PackageBaseAddress/sun/0.3.0/sun.0.3.0.nupkg"
+                },
+                {
+                    "@id": "https://choco.calamity.gg/RegistrationsBaseUrl/sun/0.4.0.json",
+                    "catalogEntry": {
+                        "@id": "https://choco.calamity.gg/catalog/sun.0.4.0.json",
+                        "id": "sun",
+                        "version": "0.4.0"
+                    },
+                    "packageContent": "https://choco.calamity.gg/PackageBaseAddress/sun/0.4.0/sun.0.4.0.nupkg"
                 }
             ],
             "lower": "0.3.0",
-            "upper": "0.3.0"
+            "upper": "0.4.0"
         }
     ]
 }
